@@ -1,4 +1,13 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+:root {
+    --font1: verdana, geneva, tahoma, sans-serif,
+    --font2: arial black,
+    --font3: 'Kolker Brush', cursive;
+}
+
+
  * {
     margin: 0px;
     padding: 0px;
@@ -7,6 +16,7 @@
  html, body {
     min-height: 100%;
     background-color: darkgray;
+    font: var(--font1);
  }
  header {
     background-color: black;
@@ -14,8 +24,10 @@
     text-align: center;
  }
  header > h1 {
+    font-family: var(--font1);
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 4em;
  }
  header > p {
     padding-bottom: 50px;
@@ -35,6 +47,8 @@
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font: var(--font1);
+    font-size: 2,5vh;
  }
  section.imagem > p {
     background-color: rgba(0, 0, 0, 0.042);
