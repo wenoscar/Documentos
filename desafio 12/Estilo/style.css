@@ -50,9 +50,14 @@
     font: var(--font1);
     font-size: 2,5vh;
  }
+ section > p {
+    padding-bottom: 2em;
+ }
  section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.042);
+    background-color: rgba(74, 72, 72, 0.492);
     width: 400px;
+    text-shadow: 2px 1px 0px black ;
+   
  }
  section.normal {
     background-color: rgb(255, 255, 255);
@@ -61,7 +66,20 @@
  section.imagem {
     background-color: rgb(63, 62, 62);
     color: aliceblue;
+    background-attachment: fixed;
     
+ }
+ section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    
+
+ }
+ section#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-size: cover;
+
  }
  footer {
     background-color: black;
